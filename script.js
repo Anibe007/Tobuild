@@ -1,10 +1,10 @@
 // Load todos from localStorage if available
-let todoList = JSON.parse(localStorage.getItem('todos')) || [
-  { name: 'Build a Calculator', dueDate: '2025-08-10', completed: false },
-  { name: 'Add JS to Insure-Landing-Page', dueDate: '2025-07-11', completed: false },
-  { name: 'Finish my Amazon Clone', dueDate: '2025-08-31', completed: false },
-  { name: 'Design my LinkedIn banner', dueDate: '2025-08-25', completed: false }
-];
+// let todoList = JSON.parse(localStorage.getItem('todos')) || [
+//   { name: 'Build a Calculator', dueDate: '2025-08-10', completed: false },
+//   { name: 'Add JS to Insure-Landing-Page', dueDate: '2025-07-11', completed: false },
+//   { name: 'Finish my Amazon Clone', dueDate: '2025-08-31', completed: false },
+//   { name: 'Design my LinkedIn banner', dueDate: '2025-08-25', completed: false }
+// ];
 
 // Elements
 const addButton = document.querySelector('.js-add-button');
@@ -88,3 +88,4 @@ if (clearButton) clearButton.addEventListener('click', clearTodos);
 
 // Initial render
 renderTodoList();
+
