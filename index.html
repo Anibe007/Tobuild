@@ -1,31 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300..900&family=Goldman:wght@400;700&family=Karla:ital,wght@0,200..800;1,200..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
 
-
-	<title>ToBuild List</title>
-
+  <title>ToBuild List</title>
 </head>
 <body>
-	<div class="wrapper">
-		<h1>✅ My ToBuild List</h1>
-			<div class="todo-input-grid">
-				<input class="js-name-input name-input" placeholder="Todo name">
-				<input type="datetime-local" class="js-due-date-input due-date-input" name="">
-				<button class="js-add-button add-todo-button">Add</button>
-				<!-- <input type="checkbox" name=""> -->
-			</div>
+  <div class="wrapper">
+    <h1>✅ My ToBuild List</h1>
 
-			<div class="js-todo-list todo-grid"></div>
-	</div>
+    <div class="todo-input-grid">
+      <input class="js-name-input name-input" placeholder="Todo name">
+      <input type="datetime-local" class="js-due-date-input due-date-input">
+      <button class="js-add-button add-todo-button">Add</button>
+      <button class="js-clear-button clear-button">Clear All</button>
+    </div>
 
-<script type="text/javascript" src="script.js"></script>
+    <div class="js-todo-list todo-grid"></div>
+  </div>
 
+  <script src="script.js"></script>
 </body>
 </html>
